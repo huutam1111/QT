@@ -1,0 +1,18 @@
+
+@keyframes typing {
+    from { margin-left: -200px;margin-top: -200px; opacity: 0; }
+    to {margin-left: 0; margin-top: 0;  opacity: 1;}
+  }
+  .row__message{
+    margin-bottom: 10px;
+}
+.row__messageAnimation{
+    animation: typing 1s forwards;
+}
+@keyframes logo_mess {
+    from { opacity: 0; }
+    to {  opacity: 1;}
+  }
+.logo-message.loading{
+    animation:logo_mess 2s forwards ;
+}
